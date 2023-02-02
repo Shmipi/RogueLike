@@ -14,7 +14,6 @@ public class reloadDestroy : StateMachineBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         reloadPoint = GameObject.FindGameObjectWithTag("ReloadPoint");
-        player.GetComponent<PlayerMovement>().isSlashing = true;
         reloadObj = GameObject.FindGameObjectWithTag("Reload");
     }
 
